@@ -39,4 +39,9 @@
 #       'e você tem a opição mais barata, que é:{} \n'.format(a,b, valor_mais_barato))
 
 
-
+consoante = []
+p = input('digite uma palavra:')
+for letra in p:
+    if letra in 'b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, w, z':
+        consoante.append(letra)
+print('sua palavra é {}, e ela tem as consoantes : {}'.format(p, consoante))

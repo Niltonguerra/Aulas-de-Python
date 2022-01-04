@@ -47,38 +47,38 @@
 # print(calculadora.divisao(100,25))
 
 
-
-class Televisao:
-    def __init__(self):
-        self.canal = 5
-        self.ligado = False
-
-    def power(self):
-        if self.ligado:
-            self.ligado = False
-        else:
-            self.ligado = True
-
-    def aumenta_canal(self):
-        self.canal += 1
-
-    def diminui_canal(self):
-        self.canal -= 1
-
-televisao = Televisao()
-print('a televisão está ligada {}'.format(televisao.ligado))
-televisao.power()
-print('a televisão está ligada {}'.format(televisao.ligado))
-print('qual é o canal da TV: {}'.format(televisao.canal))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('qual é o canal agora: {}'.format(televisao.canal))
-televisao.diminui_canal()
-televisao.diminui_canal()
-televisao.diminui_canal()
-televisao.diminui_canal()
-televisao.diminui_canal()
-televisao.diminui_canal()
-print('qual é o canal agora então: {}'.format(televisao.canal))
-
+#
+# class Televisao:
+#     def __init__(self):
+#         self.canal = 5
+#         self.ligado = False
+#
+#     def power(self):
+#         if self.ligado:
+#             self.ligado = False
+#         else:
+#             self.ligado = True
+#
+#     def aumenta_canal(self):
+#         self.canal += 1
+#
+#     def diminui_canal(self):
+#         self.canal -= 1
+#
+# televisao = Televisao()
+# print('a televisão está ligada {}'.format(televisao.ligado))
+# televisao.power()
+# print('a televisão está ligada {}'.format(televisao.ligado))
+# print('qual é o canal da TV: {}'.format(televisao.canal))
+# televisao.aumenta_canal()
+# televisao.aumenta_canal()
+# televisao.aumenta_canal()
+# print('qual é o canal agora: {}'.format(televisao.canal))
+# televisao.diminui_canal()
+# televisao.diminui_canal()
+# televisao.diminui_canal()
+# televisao.diminui_canal()
+# televisao.diminui_canal()
+# televisao.diminui_canal()
+# print('qual é o canal agora então: {}'.format(televisao.canal))
+#
