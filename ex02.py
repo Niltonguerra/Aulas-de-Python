@@ -42,6 +42,6 @@
 consoante = []
 p = input('digite uma palavra:')
 for letra in p:
-    if letra in 'b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, w, z':
+    if letra in 'b, c, d, f, g, h, j, k, l,1, m, n, p, q, r, s, t, v, x, y, w, z':
         consoante.append(letra)
 print('sua palavra é {}, e ela tem as consoantes : {}'.format(p, consoante))
